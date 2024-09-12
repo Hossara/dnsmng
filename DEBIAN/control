@@ -1,0 +1,8 @@
+Package: dnsmng
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: golang, yaml
+Maintainer: Hossein Araghi <hoseinaraghi84@gmail.com>
+Description: A DNS management tool to update /etc/resolv.conf

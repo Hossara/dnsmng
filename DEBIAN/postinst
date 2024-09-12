@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+# Reload systemd to recognize the new service
+systemctl daemon-reload
+
+# Enable and start the dnsmng service
+systemctl enable dnsmng
+systemctl start dnsmng
