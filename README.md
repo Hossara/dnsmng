@@ -1,2 +1,2 @@
 # dnsmng
-Debian DNS (resolv.conf) manager
+A DNS management tool to update /etc/resolv.conf.

@@ -1,0 +1,12 @@
+[Unit]
+Description=DNS Management Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dnsmng -config /etc/dnsmng/config.yaml -set local
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
